@@ -1,34 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <script src="script.js" defer></script>
-  <title>My Portfolio</title>
-</head>
-<body>
+<html>
   <header>
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <a href="#about">About</a>
-      <!-- add more navigation links here -->
-    </nav>
-  </header>
+     <title>Personal Portfolio Website</title>
+   </header>
+   
+   <!--Navbar Start-->
+   <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header"><a class="navbar-brand" href="#">JS Media</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="#about">About</a>
+                </li>
+                <li><a href="#portfolio">Portfolio</a>
+                </li>
+                <li><a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </div>
+   <!--Navbar End-->
+   
+   <body>
+   <!--Title Page -->   
+   <section id="titlePage">
+         <!--<ul class="text-center flyInText hidemeTitle">
+            <li>J</li>
+            <li>S</li>
+            <li> </li>
+            <li>M</li>
+            <li>E</li>
+            <li>D</li>
+            <li>I</li>
+            <li>A</li>
+         </ul> -->
+      <h1 class="text-center" id="titleText1">JS Media</h1>
+      <h5 class="text-center hidden" id="titleText2">Creative | Custom | Responsive<br>Web Design & Development</h5>
+      <hr class="text-center hidden" id="hrTitle">
+     
+   <!--Title End -->
+      
+      <!--Social Media Buttons-->
+        <div id="social">
+          <div class="btn-group" role="group" aria-label="...">
+             <a href="https://github.com/Jackstone92" target="blank">
+                <button type="button" class="btn btn-primary-outline btn-lg outline hidden" id="socialButton1"><span class="fa fa-github"></span> Github</button>
+             </a>
+             <a href="https://uk.linkedin.com/in/jackstonepercussion" target="blank">
+                <button type="button" class="btn btn-primary-outline btn-lg outline hidden" id="socialButton2"><span class="fa fa-linkedin"></span> Linkedin</button>
+             </a>
+             <a href="https://www.freecodecamp.com/jackstone92" target="blank">
+                <button type="button" class="btn btn-primary-outline btn-lg outline hidden" id="socialButton3"><span class="fa fa-fire"></span> FreeCodeCamp</button>
+             </a>  
+          </div> <!--button group end-->
+        </div> <!--social end-->
+              
+     </section>  
+     
+      
+      
+   
+     <section class="container" id="about">
+       <div id="aboutContainer">
+        <h1 class="text-center" id="aboutTitle">About Me:</h1>
+        <div class="row">
+           <div class="container circular col-xs-4" id="profilePic">
+           </div>
+           
+           <div class="container col-xs-4" id="innerBox1">
+              <p>My name is Jack and I am a self-taught web developer based in the United Kingdom. I have gained a vast amount of knowledge and experience in a short amount of time, and the momentum with which I am improving is rapidly increasing. I have already completed a number of projects, which are contributing to my ever-growing portfolio (seen below), and I cannot wait to undertake many more!</p>
+           </div>
+           
+           <div class="container col-xs-4" id="innerBox2">
+              <p>I currently have growing skillsets in the following areas: Front-End Web Development and UI/UX Designer</p>
+              <p>Languages and Frameworks:</p>
+              <ul>
+                 <li>HTML5</li>
+                 <li>CSS3</li>
+                 <li>Bootstrap3</li>
+                 <li>JavaScript</li>
+                 <li>jQuery</li>
+                 <li>JSON APIs</li>
+           </div>
+                  
+           <br/>
+           
+        </div> <!--row class end-->
+       
+      </section>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <img src="images/profile.jpg" alt="Profile Picture">
-      <p>Your information here...</p>
-    </section>
+      
+      <section class="container" id="portfolio">
+         <h1 class="text-center col-md-12" id="portfolioTitle">Portfolio</h1>
+         <h4 class="text-center col-md-12" id="portfolioSubTitle">Below, you can find some of my recent work:</h4>
+         <br><br><br>
+         
+         <!--Portfolio Elements Start-->
+         <div class="row">
+            <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href=https://codepen.io/Jackstone92/full/qNrEdm/ target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1467158005/JavaScript_Calculator_jtm2ss.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>JavaScript Calculator</strong></h3>
+               <h4 class="text-center">HTML5, CSS3, Bootstrap3, JavaScript and jQuery</h4>
+            </div>
+           <!-- <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/wWoBXG/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1466535420/wikipedia_search_jzerg1.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center">#<strong></strong></h3>
+               <h4 class="text-center">#</h4>
+            </div>
+            <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/ezdVZQ/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1466535430/weather_app_g2v4ql.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>#</strong></h3>
+               <h4 class="text-center">#</h4>
+            </div> -->
+          </div>
+         
+         <div class="row">
+            <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/beBBwR/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1466554994/Twitch.tv_JSON_API_dhxroj.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>Twitch.tv JSON API</strong></h3>
+               <h4 class="text-center">HTML5, CSS3, Bootstrap3, JavaScript, jQuery, and JSON API - Twitch.tv API</h4>
+            </div>
+            <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/wWoBXG/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1466535420/wikipedia_search_jzerg1.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>Wikipedia API Search Project</strong></h3>
+               <h4 class="text-center">HTML5, CSS3, Bootstrap3, JavaScript, jQuery, JSON API - Wikipedia API, and Ajax</h4>
+            </div>
+            <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/ezdVZQ/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1466535430/weather_app_g2v4ql.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>Weather App</strong></h3>
+               <h4 class="text-center">HTML5, CSS3, Bootstrap3, JavaScript, jQuery and JSON API - OpenWeatherMap API</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/BzLJGL/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1466535423/random_quote_civksb.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>Random Quote Generator</strong></h3>
+               <h4 class="text-center">HTML5, CSS3, Bootstrap3, JavaScript and jQuery</h4>
+            </div>
+              <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/VjaQjb/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,w_431/v1465913011/Personal%20Portfolio%20Webpage%20%20Pic.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>Personal Portfolio Webpage</strong></h3>
+               <h4 class="text-center">HTML5, CSS3, Bootstrap3, JavaScript and jQuery</h4>
+            </div>
+            <div class="col-lg-4 text-center hidemePortfolio" id="portfolioList">
+               <a href="https://codepen.io/Jackstone92/full/VjaMvp/" target="blank"><img src="https://res.cloudinary.com/jackstone92/image/upload/c_scale,h_234,w_431/v1465913446/Psathas%20Tribute%20Page%20Pic.png" class="zoomImg" id="portfolioPic"></a>
+               <h3 class="text-center"><strong>Tribute Page</strong></h3>
+               <h4 class="text-center">HTML5, CSS3 and Bootstrap3</h4>
+            </div>
+         </div>
+      </section> <!--Portfolio Elements End-->
+       
+       <section class="container" id="contact">
+        <div class-"container" id="contactContainer">
+         <h1 class="text-center" id="contactTitle">Contact Me</h1>
+          <div class="container row col-md-1">
+          </div>
+          <div class="container row col-md-5">
+            <form id="contactForm">
+              <div class="form-group">
+                 <label for="name">Name:</label>
+                 <input type="text" required class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address: </label>
+                <input type="email" required class="form-control" id="email">
+             </div>
+             <div class="form-group">
+                <label for="phone">Phone Number: </label>
+                <input type="tel" class="form-control" id="phone">
+             </div>
+             <div class="form-group">
+                <label for="message">Message: </label>
+                <textarea name="message" class="form-control" tabindex="4"
+                required></textarea>
 
-    <!-- add more sections here -->
-
-  </main>
-
-  <footer>
-    <p>© 2023 My Portfolio</p>
-  </footer>
-</body>
+             </div>
+               <button type="submit" class="btn" id="submit">Submit</button>
+           </form>
+         </div>
+         <div class="container row col-md-5">
+            <p class="text-left" id="contactBlurb">Feel free to get in touch with me to ask for more information about myself and any Web Development requests you might have!</p>
+         </div>
+          <div class="container row col-md-1">
+          </div>
+        </div>
+   </section>
+      
+      
+   </body>
+<footer>
+   <div class="container col-md-12" id="innerBoxBlack">
+      <p class="text-center">&copy 2016, Jack Stone</p>     
+   </div>
+   <div class="btn-group" role="group" aria-label="..." id="socialFooter">
+             <a href="https://github.com/Jackstone92" target="blank">
+                <button type="button" class="btn btn-primary-outline btn-lg outline hidden" id="socialButtonBottom1"><span class="fa fa-github"></span>Hi</button>
+             </a>
+             <a href="https://uk.linkedin.com/in/jackstonepercussion" target="blank">
+                <button type="button" class="btn btn-primary-outline btn-lg outline hidden" id="socialButtonBottom2"><span class="fa fa-linkedin"></span></button>
+             </a>
+             <a href="https://www.freecodecamp.com/jackstone92" target="blank">
+                <button type="button" class="btn btn-primary-outline btn-lg outline hidden" id="socialButtonBottom3"><span class="fa fa-fire"></span></button>
+             </a>  
+          </div> <!--button group end-->
+</footer>
+   
 </html>
