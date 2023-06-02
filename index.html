@@ -1,123 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>The Food Pyramid</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="https://pbs.twimg.com/media/Fiq3pc_XoAMEwkj.jpg">   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js" defer></script>
+  <title>My Portfolio</title>
 </head>
 <body>
-    
-    <center><h1 style="font-family: sans-serif ;">The Food Pyramid</h1></center>
-    <div class="left"></div>
-    <p3 style="font-family: sans-serif ;">- Dates accesed:</p3>
-    
-    <ul >
-        <li id="dates"></li>
-    </ul>
-    
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <!-- add more navigation links here -->
+    </nav>
+  </header>
 
-    <center>
-    <script type="text/javascript">
-		let foo = prompt('Enter date (DD/MM/YYYY)');
-        document.getElementById("dates").innerHTML = foo;
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Profile Picture">
+      <p>Your information here...</p>
+    </section>
 
-        var clicks1 = 0;
-        var clicks2 = 0;
-        var clicks3 = 0;
-        var clicks4 = 0;
-        var clicks5 = 0;
-        var clicks6 = 0;
+    <!-- add more sections here -->
 
-    function onClickPlus1() {
-        clicks1 += 1;
-        document.getElementById("counter1").innerHTML = clicks1;
-    }; 
-    function onClickMinus1() {
-        clicks1 -= 1;
-        document.getElementById("counter1").innerHTML = clicks1;
-    }; 
-    function onClickPlus2() {
-        clicks2 += 1;
-        document.getElementById("counter2").innerHTML = clicks2;
-    }; 
-    function onClickMinus2() {
-        clicks2 -= 1;
-        document.getElementById("counter2").innerHTML = clicks2;
-    }; 
-    function onClickPlus3() {
-        clicks3 += 1;
-        document.getElementById("counter3").innerHTML = clicks3;
-    }; 
-    function onClickMinus3() {
-        clicks3 -= 1;
-        document.getElementById("counter3").innerHTML = clicks3;
-    }; 
-    function onClickPlus4() {
-        clicks4 += 1;
-        document.getElementById("counter4").innerHTML = clicks4;
-    }; 
-    function onClickMinus4() {
-        clicks4 -= 1;
-        document.getElementById("counter4").innerHTML = clicks4;
-    }; 
-    function onClickPlus5() {
-        clicks5 += 1;
-        document.getElementById("counter5").innerHTML = clicks5;
-    }; 
-    function onClickMinus5() {
-        clicks5 -= 1;
-        document.getElementById("counter5").innerHTML = clicks5;
-    }; 
-    function onClickPlus6() {
-        clicks6 += 1;
-        document.getElementById("counter6").innerHTML = clicks6;
-    }; 
-    function onClickMinus6() {
-        clicks6 -= 1;
-        document.getElementById("counter6").innerHTML = clicks6;
-    }; 
-        
-	</script>   
+  </main>
 
-   <div class="centre t1 " >
-    <button class="button_t1_plus" onclick="onClickPlus1()">+</button>
-    <button class="button_t1_minus" onclick="onClickMinus1()">-</button>
-    <p2 style="font-family: sans-serif ;" id="counter1">ect</p2>
-    </div>
-
-   <div class="centre t2 ">
-    <button class="button_t2_plus" onclick="onClickPlus2()">+</button>
-    <button class="button_t2_minus" onclick="onClickMinus2()">-</button>
-
-
-    <p style="font-family: sans-serif ;" id="counter2" class="word2">Fats</p>
-
-   </div>
-
-   <div class="centre t3">
-    <button class="button_t3_plus" onclick="onClickPlus3()">+</button>
-    <button class="button_t3_minus" onclick="onClickMinus3()">-</button>
-    <p style="font-family: sans-serif ;" id="counter3">Meats</p>
-   </div>
-   <div class="centre t4">
-    <button class="button_t4_plus" onclick="onClickPlus4()">+</button>
-    <button class="button_t4_minus" onclick="onClickMinus4()">-</button>
-    <p style="font-family: sans-serif ;" id="counter4">Milk Products</p>
-   </div>
-   <div class="centre t5">
-    <button class="button_t5_plus" onclick="onClickPlus5()">+</button>
-    <button class="button_t5_minus" onclick="onClickMinus5()">-</button>
-    <p style="font-family: sans-serif ;" id="counter5">Fruits/Veg</p>
-   </div>
-   <div class="centre t6">
-    <button class="button_t6_plus" onclick="onClickPlus6()">+</button>
-    <button class="button_t6_minus" onclick="onClickMinus6()">-</button>
-    <p style="font-family: sans-serif ;" id="counter6">Carbs</p>
-   </div>
-   
-</center>
-   
-
-   
+  <footer>
+    <p>© 2023 My Portfolio</p>
+  </footer>
 </body>
 </html>
