@@ -61,62 +61,6 @@ body {
  
  }
  
- /* flyInText Animation Start
- 
- #titleFlyIn {
-    margin-right: 50%;
-    margin-left: 50%;
- }
- 
- 
- .flyInText {
-    list-style: none;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-55%) translateY(-120%);
-    
-    letter-spacing: -30px;
-   
-    
- }
- .flyInText li{
-    display: inline-block;
-    margin-right: 40px;
-    margin-top: -70px;
-    opacity: 1;
-    transition: all 2.5s ease;
-    
-    
-    color: white;
-    text-shadow:
-     -1px -1px 0 #000,
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-     1px 1px 0 #000;  
-    font-weight: 500;
-    font-size: 120px;
- }
- 
- .flyInText li:last-child {
-    margin-right: 0;
- }
- 
- .flyInText.hidemeTitle li{
-    opacity: 0;
- }
- 
- .flyInText.hidemeTitle li:nth-child(1){ transform: translateX(-200px) translateY(-200px)}
- .flyInText.hidemeTitle li:nth-child(2){ transform: translateX(20px) translateY(100px)}
- .flyInText.hidemeTitle li:nth-child(3){ transform: translateX(-150px) translateY(-80px)}
- .flyInText.hidemeTitle li:nth-child(4){ transform: translateX(10px) translateY(-200px)}
- .flyInText.hidemeTitle li:nth-child(5){ transform: translateX(-300px) translateY(200px)}
- .flyInText.hidemeTitle li:nth-child(6){ transform: translateX(220px) translateY(-20px)}
- .flyInText.hidemeTitle li:nth-child(7){ transform: translateX(30px) translateY(200px)}
- .flyInText.hidemeTitle li:nth-child(8){ transform: translateX(60px) translateY(300px)}
- 
- flyInText Animation End */
- 
  #titleText1 {
     color: white;
     text-shadow:
@@ -125,7 +69,7 @@ body {
      -1px 1px 0 #000,
      1px 1px 0 #000;  
     font-weight: 500;
-    font-size: 120px;
+    font-size: 100px;
  }
  
  #titleText2 {
@@ -307,7 +251,7 @@ body {
  /* Portfolio FadeIn Animation End */
  
  #contact {
-    background-image: url("https://pixabay.com/static/uploads/photo/2015/05/26/23/52/technology-785742_960_720.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2023/06/07/15/15/15-15-06-747_1280.jpg");
     background-size: cover;
     width: auto;  
  }
