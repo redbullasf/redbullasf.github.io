@@ -60,6 +60,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 100%;
  
  }
  
@@ -149,7 +150,7 @@ body {
  
  #about {
    position: relative;
-    background-image: url("https://cdn.pixabay.com/photo/2023/06/07/15/15/15-15-06-747_1280.jpg");
+    background-image: url("");
     background-size: cover;
     
     
@@ -193,20 +194,7 @@ body {
     
  }
  
- .circular {
-     width: 200px;
-     height: 200px;
-     border-radius: 150px;
-     -webkit-border-radius: 150px;
-     -moz-border-radius: 150px;
-     background: url(https://res.cloudinary.com/jackstone92/image/upload/c_scale,w_202/v1465859840/IMG_4386_dbaqsw.jpg) no-repeat;
-     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    margin-right: 20px;
-    margin-top: 20px;
-    
- }
+
  
  #portfolio {
     background-image: url("https://cdn.pixabay.com/photo/2023/06/07/15/15/15-15-06-747_1280.jpg");
@@ -257,7 +245,7 @@ body {
  /* Portfolio FadeIn Animation End */
  
  #contact {
-    background-image: url("https://cdn.pixabay.com/photo/2023/06/07/15/15/15-15-06-747_1280.jpg");
+    background-image: url("https://w0.peakpx.com/wallpaper/241/159/HD-wallpaper-black-stars-black-aesthetic.jpg");
     background-size: cover;
     width: auto;  
  }
