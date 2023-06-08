@@ -51,9 +51,11 @@ body {
  
  
  #titlePage {
-    background-image: url("https://pixabay.com/static/uploads/photo/2015/01/08/18/25/startup-593327_960_720.jpg");
+   background-image: url("https://cdn.pixabay.com/photo/2023/06/07/15/15/15-15-06-747_1280.jpg");
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 500px;
     display: flex;   
     flex-direction: column;
     justify-content: center;
@@ -146,9 +148,10 @@ body {
  
  
  #about {
-    background-image: url("https://pixabay.com/static/uploads/photo/2016/05/26/21/56/background-1418618_960_720.jpg");
+   position: relative;
+    background-image: url("https://cdn.pixabay.com/photo/2023/06/07/15/15/15-15-06-747_1280.jpg");
     background-size: cover;
-    width: auto;
+    
     
     padding-bottom: 20px;
  }
@@ -173,6 +176,7 @@ body {
     
     height: auto;
     border-radius: 30px;
+    opacity: 0.5;
     
  }
  
@@ -182,8 +186,10 @@ body {
     margin: 0px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     
+    
     height: auto;
     border-radius: 30px;
+    opacity: 0.5;
     
  }
  
@@ -203,7 +209,7 @@ body {
  }
  
  #portfolio {
-    background-image: url("https://pixabay.com/static/uploads/photo/2016/05/05/09/13/main-road-1373497_960_720.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2023/06/07/15/15/15-15-06-747_1280.jpg");
     background-size: cover;
     width: auto;
     
@@ -262,7 +268,7 @@ body {
  }
  
  #contactTitle {
-    color: white;
+    color: rgb(253, 253, 253);
     padding-left: 20px;
     padding-top: 20px;
  }
@@ -281,7 +287,9 @@ body {
     font-size: 25px;
  }
  
- 
+ h3 {
+   font-size: medium;
+ }
  
  footer {
     padding-top: 40px;
