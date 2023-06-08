@@ -55,7 +55,7 @@ body {
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 500px;
+    background-position: center;
     display: flex;   
     flex-direction: column;
     justify-content: center;
